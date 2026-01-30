@@ -1,0 +1,8 @@
+node_modules/
+dist/
+/.cache
+coverage/
+*.log
+/.vscode
+/.idea
+npm-debug.log*

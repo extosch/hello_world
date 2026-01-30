@@ -1,0 +1,29 @@
+/* Elegant, minimal "Apple-like" styling */
+:root{
+  --bg: #f6f7f8;
+  --card: #ffffff;
+  --muted: #6b6f76;
+  --accent: #0a84ff;
+  --radius: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+html,body,#root{height:100%;}
+body{
+  margin:0;
+  background:var(--bg);
+  color:#111;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+.app-shell{display:flex;flex-direction:column;min-height:100vh;align-items:center;padding:48px 16px}
+.header{display:flex;align-items:center;gap:16px;margin-bottom:20px}
+.logo{width:44px;height:44px}
+h1{font-size:20px;margin:0}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:0 8px 24px rgba(16,24,40,0.06);padding:24px;max-width:760px;width:100%;display:flex;flex-direction:column;gap:12px}
+.description{color:var(--muted);margin:0 0 4px 0}
+.label{font-weight:600;font-size:13px;color:#222}
+.input, .output{min-height:80px;padding:12px;border-radius:10px;border:1px solid #e6e9ee;font-size:15px;resize:vertical}
+.output[readonly]{background:#fbfbfd}
+.btn{margin-top:8px;padding:10px 14px;border-radius:10px;border:none;background:var(--accent);color:white;font-weight:600;cursor:pointer;width:160px}
+.btn:hover{filter:brightness(0.98)}
+.footer{margin-top:18px;color:var(--muted);font-size:13px}

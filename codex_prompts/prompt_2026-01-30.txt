@@ -1,0 +1,57 @@
+2026-01-30
+
+Du bist ein erfahrener Web-Entwickler. 
+Deine Aufgabe ist es, eine **komplette React + TypeScript Web-App** zu erstellen, die automatisch lauffähig ist und sofort im Browser getestet werden kann.
+
+Erzeuge bitte folgendes:
+
+1. **Projektstruktur**
+- index.html
+- main.tsx (mountet App auf div id="root")
+- App.tsx (Hauptkomponente mit Eingabefeld, Button, Ausgabefeld)
+- style.css (elegantes, minimalistisches Styling, „Apple-like“ Design)
+- assets/ (für Bilder, Icons)
+- tests/ (Unit-Tests)
+- README.md (Projektbeschreibung)
+- codex_prompts/ (für Speicherung zukünftiger Prompts)
+- .github/workflows/build.yml (GitHub Actions für Build + Deployment zu GitHub Pages)
+
+2. **Funktionalität**
+- App zeigt:
+  - Ein **Eingabefeld**, in das der Nutzer Text eingeben kann
+  - Einen **Button**, der beim Klicken den Text aus dem Eingabefeld verarbeitet
+  - Ein **Ausgabefeld**, in dem **alle Zahlen im Text durch '*' ersetzt** werden
+  - Eine kurze, elegante **Beschreibung der Seite**
+- Kommentare in allen Dateien, die erklären, was passiert
+- App ist modular, bereit für spätere Erweiterungen
+
+3. **Technische Anforderungen**
+- TypeScript + TSX (React-Komponenten)
+- Linter: eslint eingerichtet
+- Formatter: Prettier eingerichtet
+- Tests: einfache Unit-Tests für Eingabe-Button-Ausgabe-Funktionalität (z.B. Jest)
+- Build mit Vite (TSX → JS + CSS) 
+
+4. **Deployment**
+- GitHub Actions Workflow (.github/workflows/build.yml), der bei Push auf main:
+  a) npm install
+  b) npm run build
+  c) fertige Dateien auf GitHub Pages deployed
+- Deployment funktioniert automatisch, keine manuelle Aktion nötig
+
+5. **Dokumentation**
+- README.md enthält:
+  - Projektziel
+  - Projektstruktur
+  - Installationsanleitung
+  - Nutzung der App
+  - Hinweise zu Linter / Tests / Deployment
+
+6. **Prompt-Historie**
+- codex_prompts/ enthält Textdatei mit diesem Prompt + Datum, damit zukünftige Erweiterungen automatisch auf diesen Kontext zugreifen können
+
+7. **Codequalität**
+- Sauberer, kommentierter Code
+- Typensicherheit in allen TSX-Dateien
+- Build sollte direkt fehlerfrei laufen
+- Elegant, minimalistisches Design, „Apple-like“
