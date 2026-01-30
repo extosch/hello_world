@@ -26,13 +26,13 @@ npm install (vite, react, lint) ist noch nicht ganz klar
 #npm ci das klemmt, nicht verstanden
 ```
 
-3. Dev-Server starten:
+
+Test
+Dev-Server starten:
 ```bash
 npm run dev
 ```
-
-Test
-Hier läuft die Testseite: http://localhost:5173/
+Hier läuft dann die Testseite: http://localhost:5173/
 
 
 Build & Deployment
