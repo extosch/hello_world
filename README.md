@@ -31,6 +31,10 @@ npm install (vite, react, lint) ist noch nicht ganz klar
 npm run dev
 ```
 
+Test
+Hier läuft die Testseite: http://localhost:5173/
+
+
 Build & Deployment
 - Build lokal: `npm run build` — erzeugt `dist/`.
 - CI: GitHub Actions baut bei Push auf `main` und deployed `dist/` zu GitHub Pages.
