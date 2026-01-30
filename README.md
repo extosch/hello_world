@@ -21,11 +21,12 @@ Installation
 2. Abhängigkeiten installieren:
 
 ```bash
-npm ci
+# irgendwelche weitere installation 
+npm install (vite, react, lint) ist noch nicht ganz klar
+#npm ci das klemmt, nicht verstanden
 ```
 
 3. Dev-Server starten:
-
 ```bash
 npm run dev
 ```
@@ -33,6 +34,9 @@ npm run dev
 Build & Deployment
 - Build lokal: `npm run build` — erzeugt `dist/`.
 - CI: GitHub Actions baut bei Push auf `main` und deployed `dist/` zu GitHub Pages.
+
+- von GitHub: git clone https://github.com/extosch/hello_world.git
+- zu GitHub: 
 
 Tests & Linting
 - Tests ausführen: `npm test` (Jest)
