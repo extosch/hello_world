@@ -35,8 +35,28 @@ Build & Deployment
 - Build lokal: `npm run build` — erzeugt `dist/`.
 - CI: GitHub Actions baut bei Push auf `main` und deployed `dist/` zu GitHub Pages.
 
-- von GitHub: git clone https://github.com/extosch/hello_world.git
+- von GitHub: 
+```bash
+git clone https://github.com/extosch/hello_world.git
+```
+
 - zu GitHub: 
+```bash
+# 1. Status prüfen
+git status
+
+# 2. Alle Änderungen hinzufügen
+git add .
+
+# 3. Commit erstellen
+git commit -m "Initial Vite React TS Projekt"
+
+# 4. Remote prüfen (sollte origin sein)
+git remote -v
+
+# 5. Pushen
+git push -u origin main
+```
 
 Tests & Linting
 - Tests ausführen: `npm test` (Jest)
